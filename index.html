@@ -12,14 +12,24 @@
     <link rel="apple-touch-icon" sizes="114x114" href="img/logo_remonty.webp">
     <link rel="apple-touch-icon" sizes="72x72" href="img/logo_remonty.webp">
     <link rel="apple-touch-icon" sizes="57x57" href="img/logo_remonty.webp">
-    <link rel="shortcut icon" href="img/logo_remonty.jpg">
-    <link href="/dist/output.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/img/logo_remonty.jpg">
+    <link href="/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <title>Remonty 48-72h</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brown': '#83583D',
+                    }
+                }
+            }
+        }
+    </script>
 </head>
 <body class="scroll-smooth font-lato">
     <nav class="w-full sticky top-0 bg-brown m-0 p-2 z-10">
